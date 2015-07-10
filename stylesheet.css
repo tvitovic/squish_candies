@@ -1,221 +1,247 @@
-body {
-  position: relative;
-  width: 100%;
-  margin: auto;
-}
 
-.header {
-  background-color: rgb(0, 0, 0);
-  height: 87px;
-}
+header {
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	margin-top: -10px;
+	vertical-align: middle;
+	height: 87px;
 
+}
 .container{
-  width: 1480px;
-  margin: 0 auto;
+	width: 1250px;	
+	margin: 0 auto;
+	height: 87px;
+	background:url(logo.png) no-repeat center center;
+}
+.lang{
+	float: left;
+	font-size: 14px;	
+  	font-family: "Myriad Pro";
+  	font-weight: bold;
+  	color: rgb(255, 255, 255);
+  	padding-top: 25px;
+}
+.lang:hover{
+	color: rgb(180,175,175); 
+	cursor: pointer;
 }
 
-.logo {
-  display: inline;
-  margin: 0 auto;
-}
-
-.language {
-  display: inline;
-  float: left;
-  font-size: 14px;
-  font-family: "Calibri";
-  font-weight: bold;
-  color: rgb(229, 20, 100);
-}
-
-.logout {
-  display: inline;
+.login{
+  	display: inline;
 	font-size: 14px;
-  font-family: "Calibri";
-  font-weight: bold;
-  color: rgb(229, 20, 100);
-  float: right;
- }
-
- .logout:hover{
-	color: rgb(180,175,175); 	
- }
-
-.navigation {
-  position: relative;
-	margin-top: 25px;
-	margin-left: 10%;
-	margin-right: 10%;
-  height: 1000px;
-  border: solid;
+  	font-family: "Myriad Pro";
+  	font-weight: bold;
+  	color: rgb(229, 20, 100);
+  	float: right;
+  	padding-top: 25px;
 }
+
+.login:hover{
+	color: rgb(180,175,175);
+	cursor: pointer; 	
+ }
+
+.content{
+	height: 800px;
+	width: 1250px;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.search_input {
+  	padding-left: 4%;
+  	display: inline;
+  	box-sizing: content-box;
+  	height: 10px;
+  	width: 30%;
+  	padding: 10px 20px 10px 20px;
+  	border: 1px solid #dcdcdc;
+  	font: normal 14px/normal "Myriad Pro";
+  	color: rgb(180,175,175);
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	background: rgb(252,252,252);
+  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+
+.search_input:hover {
+  	box-shadow:inset 0 0 5px #D3D3D3;
+}
+
+.newsletter_input {
+  	padding-left: 4%;
+  	display: inline;
+  	box-sizing: content-box;
+  	height: 15px;
+  	width: 70%;
+  	padding-right: 40px;
+  	padding: 10px 20px 10px 20px;
+  	border: 1px solid #dcdcdc;
+  	font: normal 14px/normal "Myriad Pro";
+  	color: rgb(180,175,175);
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	background: rgb(252,252,252);
+  	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  	margin-right: 0px;
+  	vertical-align: middle;
+
+}
+
+.newsletter_input:hover{
+	box-shadow:inset 0 0 10px #000000;
+}
+
+.newsletter-button{
+	display: inline;
+	width: 40px;
+	height: 37px;
+	border: 1px solid #D3D3D3;
+	color: rgb(255,255,255);
+	background-color: black;
+	vertical-align: middle;
+}
+
+.newsletter-button:hover{
+	box-shadow:inset 0 0 10px #D3D3D3;
+	cursor: pointer;
+}
+
+.newsletter-form{
+	position: relative;
+}
+
+.email-form{
+	margin-top: 25px;
+	height: 37px;
+}
+
 
 .filter_by{
-	position: relative;
-	left: 20px;
+	left: 10px;
 	top:30px;
 	display: inline;
 	background:none;
 	border:0;
-  width: 10%;
-	font-size: 16px;
-	font-family: "Trebuchet MS";
+  	width: 100px;
+	font-size: 14px;
+	font-family: "Myriad Pro";
 	font-weight: bold;
 }
 
 .filter_by:hover{
 	color: rgb(229, 20, 100);
-}
-
-.search_button {
-  padding-left: 4%;
-  display: inline;
-  box-sizing: content-box;
-  position: relative;
-  top:30px;
-  height: 10px;
-  width: 20%;
-  padding: 10px 20px 10px 45px;
-  border: 1px solid #dcdcdc;
-  margin-left: 10px;
-  font: normal 16px/normal "Trebuchet MS";
-  color: rgb(180,175,175);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: rgb(252,252,252);
-  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
-  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
-}
-
-.search_button:hover {
-  border: 1px solid #5a5a5a;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.list_usage{
-  display: inline;
-  margin-left: 5px;
+	cursor: pointer;
 }
 
 .title{
-	position: relative;
 	top: 20px;
-	font: normal 26px/normal "Trebuchet MS";
+	font: normal 26px/normal "Myriad Pro";
 	font-weight: bold;
-  margin-left: 13px;
 }
 
-.table-list{
-  position: relative;
-  top: 70px;
-  width: 100%;
+footer{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	vertical-align: middle;
+	padding-top: 30px;
+	padding-bottom: 60px;
 }
 
-.column-style {
-  padding-right: 2%;
-  padding-left: 2%;
+.container-footer{
+	width: 1400px;	
+	margin: 0 auto;
+	height: 250px;
+	vertical-align: middle;
 }
 
-.column1{
-  float: left;
-  display: block;
-  width: 20%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
-  font-weight: bold;
-
+.logo-footer{
+	float: left;
+	width: 15%;
+	height: 100%;
+	background:url(logo.png) no-repeat center top;
+	margin-top: 20px;
 }
 
-.column2{
-  float: left;
-  display: block;
-  width: 15%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
-  font-weight: bold;
-
+.info-footer{
+	float: left;
+	width: 20%;
+	height: 100%;
 }
 
-.column3{
-  float: left;
-  display: block;
-  width: 15%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
-  font-weight: bold;
-
+.list-info{
+		list-style:none;
 }
 
-.column4{
-  float: left;
-  display: block;
-  width: 50%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
-  font-weight: bold;
+.social-footer{
+	float: left;
+	width: 20%;
+	height: 100%;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	font-family: "Myriad Pro";
 }
 
-
-.row1{
-  float: left;
-  display: block;
-  width: 20%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
-
+div.social-footer > p {
+	padding-left: 10%;
 }
 
-.row2{
-  float: left;
-  display: block;
-  width: 15%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
+.newsletter-footer{
+	float: left;
+	width: 25%;
+	height: 100%;
+	font-weight: normal;
+	font-family: "Myriad Pro";
+	color: rgb(255,255,255);
 }
 
-.row3{
-  float: left;
-  display: block;
-  width: 15%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
+li > a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-family: "Myriad Pro";
 }
 
-.row4{
-  float: left;
-  display: block;
-  width: 50%;
-  height: 40px;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: rgb(180,175,175); 
-  font: normal 18px/normal "Trebuchet MS";
+li > a:hover{
+	color: rgb(180,175,175);
 }
 
-.list-resutl{
-  height: 50px;
-  font: normal 14px/normal "Trebuchet MS";
-  color: rgb(180,175,175); 
+ul.list-info > li {
+	padding-top: 8px;
+}
+
+p.first-line{
+	color: rgb(255,255,255);
+	font-weight: bold;
+}
+
+div.newsletter-footer > p,form {
+	padding-left: 10%;
+}
+
+div.social-footer > p {
+	padding-left: 10%;
+	font-weight: bold;
+}
+
+div.social-footer > img.zigzag{
+	padding-left: 10%;
+}
+
+div.newsletter-footer > img.zigzag{
+	padding-left: 10%;
+}
+
+.social-images{
+	padding-left: 10%;
+}
+
+div.social-images > img{
+	padding-right: 35px;
+	padding-top: 20px;
+}
+
+.commands{
+	margin-top: 50px;
 }
