@@ -19,25 +19,82 @@
 	<div class="commands">
 		<h1 class="title">Product search</h1>
 		<input type="text" class="search_input" placeholder="Search by product name or ingredient">
-		<button class="filter_by">FILTER BY</button>
+		<button class="filter_by">FILTER BY &#9660;</button>
 	</div>
 
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+	<div class="table-container">         
+  		<table class="table">
+  			<!--Napravio sam formu za tabelu gde mozes generisati sadrzaj-->
+    		<thead>
+      			<tr class="table-heading">
+        			<th class="column1">IMAGE</th>
+        			<th class="column2">SKU</th>
+        			<th class="column3">NAME</th>
+        			<th class="column4">INGREDIENTS</th>
+        			<th class="column5">DETAILS</th>
+      			</tr>
+   			</thead>
+    		<tbody>
+      			<tr>
+        			<td><img class ="food" src="images/cake.png"></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+      			<tr>
+        			<td><img src=""></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+      			<tr>
+        			<td><img src=""></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+      			<tr>
+        			<td><img src=""></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+      			<tr>
+        			<td><img src=""></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+      			<tr>
+        			<td><img src=""></td>
+        			<td>348NJODS</td>
+        			<td>BIO MIX PAINT CAN</td>
+        			<td>Glucose syrup, sugar, water, gelatine, citric acid, fruit juice concentrates (strawberry, raspberry, black currant, cheery), pectin, lactic acid, black currant, carrot, elderberry, grape, vegetable oils (coconut, palm kernel), white and yellow beeswax, carnauba</td>
+        			<td><input type="button" class="btn" value="DETAILS"/></td>
+      			</tr>
+    		</tbody>
+  		</table>
+	</div>
 
+	<div class="table-footer">
+			<!--Pretpostavljam da ovaj teksts takodje menjas kada koristis paginaciju da ides na sledecu stranu-->
+		<p class="table-details">Affichage de 1-6 sur elements</p>
 
-
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla efficitur augue, eu lacinia magna porttitor eget. Praesent eleifend justo ante, ac tincidunt elit eleifend id. Mauris facilisis libero et neque pretium sagittis. Proin sollicitudin aliquam orci eu viverra. Sed fermentum viverra erat at finibus. Suspendisse potenti. Nulla ut eros varius, posuere est sit amet, semper est. Curabitur sit amet nulla quam. Cras et aliquam leo. Aliquam ultricies ultricies felis gravida consectetur. Sed porttitor viverra nibh pellentesque semper. Suspendisse at cursus mi, a consequat arcu. Vivamus lobortis arcu eget feugiat faucibus. Donec egestas sit amet lorem ut molestie. Morbi mollis convallis neque, eget tristique tellus eleifend ac.
-	</p>
-	
-	<p>	
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla efficitur augue, eu lacinia magna porttitor eget. Praesent eleifend justo ante, ac tincidunt elit eleifend id. Mauris facilisis libero et neque pretium sagittis. Proin sollicitudin aliquam orci eu viverra. Sed fermentum viverra erat at finibus. Suspendisse potenti. Nulla ut eros varius, posuere est sit amet, semper est. Curabitur sit amet nulla quam. Cras et aliquam leo. Aliquam ultricies ultricies felis gravida consectetur. Sed porttitor viverra nibh pellentesque semper. Suspendisse at cursus mi, a consequat arcu. Vivamus lobortis arcu eget feugiat faucibus. Donec egestas sit amet lorem ut molestie. Morbi mollis convallis neque, eget tristique tellus eleifend ac.
-	</p>
+		<div class="pagination">
+			<!--Spremio sam ti slicice koje treba da pozoves prilikom promene strane, nalaze se u folderu /images-->
+			<img src="pagination/left-pagination.png">
+			<img src="pagination/rectangle1.png">
+			<img src="pagination/inactive-rectangle2.png">
+			<img src="pagination/inactive-rectangle3.png">
+			<img src="pagination/inactive-rectangle4.png">
+			<img src="pagination/right-pagination.png">
+		</div>
+	</div>	
 </div>
 
 
@@ -69,23 +126,23 @@
 		</div>
 		<div class="social-footer">
 			<p class="first-line">FOLLOW SQUISH</p>
-			<img src="zigzagfinal1.png" class="zigzag">
+			<img src="images/zigzagfinal1.png" class="zigzag">
 			<div class="social-images">
-				<img src="facebook.png">
-				<img src="twitter.png">
-				<img src="instagram.png">
+				<img src="images/facebook.png">
+				<img src="images/twitter.png">
+				<img src="images/instagram.png">
 			</div>
 		</div>
 		<div class="newsletter-footer">
 			<p class="first-line">SUBSCRIBE TO OUR NEWSLETTER</p>
-			<img src="zigzagfinal2.png" class="zigzag">
+			<img src="images/zigzagfinal2.png" class="zigzag">
 			<p class="second-line">Subscribe now and get 15% off !</p>
 			<form class="newsletter-form" action="">
-				<input class="choose-language" type="radio" name="lang" value="EN">EN</input>
-				<input class="choose-language" type="radio" name="lang" value="FR">FR</input><br/>
+				<input type="radio" name="lang" value="EN">EN</input>
+				<input type="radio" name="lang" value="FR">FR</input><br/>
 				<div class="email-form">
 					<input type="text" class="newsletter_input">
-					<button class="newsletter-button"><img src="arrow.png"></button>
+					<button class="newsletter-button"><img src="images/arrow.png"></button>
 				</div>
 			</form>
 		</div>
