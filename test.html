@@ -1,0 +1,10 @@
+<form method="post" id="myFavoriteForm">
+   ...other fields...
+   <a href="#" class="btn btn-primary" id="myFavoriteFormSubmitButton">
+      <i class="icon-user icon-white"></i>&nbsp;Let me in
+   </a>
+</form>
+
+$("#myFavoriteFormSubmitButton").bind('click', function(event) {
+   $("#myFavoriteForm").submit();
+});
