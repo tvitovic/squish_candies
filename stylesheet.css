@@ -42,7 +42,7 @@ header {
  }
 
 .content{
-	height: 800px;
+	height: 1250px;
 	width: 1250px;
 	margin: 0 auto;
 	padding-top: 20px;
@@ -148,7 +148,7 @@ input[type="radio"] + label:before {
 }
 
 .title{
-	top: 20px;
+	padding-top: 10px;
 	font: normal 26px/normal "Myriad Pro";
 	font-weight: bold;
 }
@@ -324,10 +324,9 @@ tr.table-heading{
 
 .table-details{
 	float:left;
+	color: #626263;
 }
 
-
-/* Ne mogu da pozicioniram da mi dugme i sliku stoji u vertikalnoj sredini reda tabele, uvek mi pomeri celokupan red na dole kada  menjam marginu*/
 .btn {
   	font-family: "Myriad Pro";
   	color: rgb(229, 20, 100);
@@ -345,3 +344,139 @@ tr.table-heading{
   	cursor:	pointer;
 }
 
+.back-button{
+	font: normal 26px/normal "Myriad Pro";
+	font-weight: bold;
+}
+
+.back-div{
+	padding-top: 25px;
+	cursor: pointer;
+	width: 120px;
+}
+
+.back-image{
+	margin-right: 10px;
+}
+
+.down-info{
+	position: relative;
+	top: 70px;
+}
+
+.down-info-list{
+	list-style-type: none;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #626263;
+}
+
+.list-down-info{
+	border-bottom: 1px solid;
+	border-bottom-color: #D3D3D3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.list-info-headline{
+	margin-top: 40px;
+	height: 30px;
+	width: 100%;
+	border-bottom: 1px solid;
+	font: bold 16px/bold "Myriad Pro";
+	border-bottom-color: #D3D3D3;
+}
+
+.top-info{
+	width: 100%;
+	height: 500px;
+}
+
+.gallery{
+	width: 55%;
+	height: 100%;
+	float: left;
+/*	background-color: #D3D3D3;*/
+}
+
+.right-info{
+	width: 45%;
+	height: 100%;
+	float:left;
+}
+
+.info-title{
+	font-family: "Myriad Pro";
+	border-bottom: 1px solid;
+	border-bottom-color: #D3D3D3;
+	height: 40px;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.description-title{
+	padding-right: 10px;
+	font: normal 16px/normal "Myriad Pro";
+	padding-bottom: 20px;
+}
+
+td{
+	color: #626263;
+}
+
+.table-right-info{
+	width: 100%;
+	border: none;
+	border-collapse:collapse;
+}
+
+.info-table-head{
+	background-color: #F6F6F8;
+	font: bold 14px/bold "Myriad Pro";
+}
+
+.info.table-content{
+	font: normal 14px/normal "Myriad Pro";
+	border-bottom: 1px #F6F6F8;
+}
+
+.table-row-right-info{
+	height: 40px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.nutrition{
+	font-family: "Myriad Pro";
+	border-bottom: 1px solid;
+	border-bottom-color: #D3D3D3;
+	color: #626263;
+	height: 30px;
+	margin-top: 40px;
+}
+
+.nutrition-images{
+	float:left;
+}
+
+.nutrition-images > img{
+	padding-left: 10px;
+}
+
+.gift-box{
+	font-family: "Myriad Pro";
+	border-bottom: 1px solid;
+	border-bottom-color: #D3D3D3;
+	color: #626263;
+	height: 30px;
+	margin-top: 40px;
+}
+
+.gift-box-images{
+	float:left ;
+}
+
+.gift-box-images > img{
+	padding-left: 10px;
+}
