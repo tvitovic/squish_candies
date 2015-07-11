@@ -54,7 +54,7 @@ header {
   	display: inline;
   	box-sizing: content-box;
   	height: 10px;
-  	width: 30%;
+  	width: 80%;
   	padding: 10px 20px 10px 20px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Myriad Pro";
@@ -131,22 +131,6 @@ input[type="radio"] + label:before {
 	height: 37px;
 }
 
-
-.filter_by{
-	margin-left: 30px;
-	display: inline;
-	background:none;
-	border:0;
-	font-size: 14px;
-	font-family: "Myriad Pro";
-	font-weight: bold;
-}
-
-.filter_by:hover{
-	color: rgb(229, 20, 100);
-	cursor: pointer;
-}
-
 .title{
 	padding-top: 10px;
 	font: normal 26px/normal "Myriad Pro";
@@ -171,6 +155,10 @@ footer{
 	margin: 0 auto;
 	height: 250px;
 	vertical-align: middle;
+}
+
+.container-footer div ul li{
+	padding-bottom: 2px;
 }
 
 .logo-footer{
@@ -260,10 +248,11 @@ div.social-images > img{
 
 .commands{
 	margin-top: 50px;
+	width: 400px;
 }
 
 .table-container{
-	margin-top: 45px;
+	margin-top: 25px;
 	width: 100%;
 }
 
@@ -316,6 +305,7 @@ tr.table-heading{
 .pagination > img{
 	float:left;
 	margin-left: 2px;
+	cursor: pointer;
 }
 
 .table-footer{
@@ -479,4 +469,147 @@ td{
 
 .gift-box-images > img{
 	padding-left: 10px;
+}
+.filter-by{
+	margin-left: 50%;
+	left: -60px;
+	background:none;
+	border:0;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	font-weight: bold;
+	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	height: 50px;
+}
+
+.filter-dropdown{
+	background: #FFFFFF; 
+  	visibility: hidden; 
+  	color: #D3D3D3;
+  	position: absolute;
+  	top: 45px;
+  	height: 300px;
+  	width: 1680px;
+  	left: -770px;
+  	border-bottom: 1px solid #D3D3D3;
+  	border-top: 1px solid #D3D3D3;
+}
+
+.filter-by:hover{
+	color: rgb(229, 20, 100);
+	cursor: pointer;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+}
+
+.filter-by:hover > div{
+	visibility: visible;
+}
+
+.dd-container div ul{
+	padding-left: 5px;
+	padding-right: 2px;
+}
+
+.dd-container p{
+	font-size: 14px;
+	display: inline;
+}
+
+.dd-list1{
+	width: 15%;
+	float: left;
+	border-right: 1px solid #D3D3D3;
+}
+
+.dd-list2{
+	width: 15%;
+	float: left;
+	border-right: 1px solid #D3D3D3;
+}
+
+.dd-list3{
+	width: 18%;
+	float: left;
+}
+
+.dd-list4{
+	width: 18%;
+	float: left;
+	border-right: 1px solid #D3D3D3;
+}
+
+.dd-list5{
+	width: 17%;
+	float: left;
+}
+
+.dd-list6{
+	width: 16%;
+	float: left;
+}
+
+
+
+.filter.dropdown > div,ul{
+	height: 200px;
+}
+
+.filter.dropdown > ul,li{
+	padding-bottom: 15px;
+	list-style-type: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.filter-dropdown div ul li p {
+	vertical-align: middle;
+	padding-left: 8px;
+	color: black;
+	font-weight: normal;
+}
+
+.filter-dropdown div ul li p:hover {
+	vertical-align: middle;
+	padding-left: 8px;
+	color: rgb(220,20,100);
+	font-weight: normal;
+}
+
+.filter-dropdown div ul li img {
+	vertical-align: middle;
+}
+
+.dd-container{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.dd-list1 ul li img{
+	max-width: 15px;
+}
+
+.dd-list3 ul li img{
+	height: 25px;
+	width: 25px;
+}
+
+.dd-list4 ul li img{
+	height: 25px;
+	width: 25px;
+}
+
+.dd-list5 ul li img{
+	height: 20px;
+	width: 20px;
+}
+
+.dd-list6 ul li img{
+	height: 20px;
+	width: 20px;
 }
