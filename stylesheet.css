@@ -675,7 +675,7 @@ td{
 }
 
 .email{
-	width: 80%;
+	width: 300px;
 	position: relative;
     display: block;
     margin : 0 auto;
@@ -697,10 +697,11 @@ td{
 }
 
 .password{
-	width: 80%;
+	width: 300px;
 	position: relative;
     display: block;
-    margin : 0 auto;
+    margin : 0;
+    margin: 0 auto;
   	box-sizing: content-box;
   	height: 10px;
   	padding: 10px;
@@ -723,7 +724,6 @@ td{
 	position: relative;
     display: block;
     margin : 0 auto;
-    left: -10px;
   	height: 10px;
   	padding-bottom: 20px;
   	font-family: "Calibri";
@@ -738,7 +738,6 @@ td{
 	position: relative;
     display: block;
     margin : 0 auto;
-    left: -10px;
   	height: 10px;
   	padding-top: 10px;
   	padding-bottom: 20px;
@@ -749,7 +748,7 @@ td{
 }
 
 .submit-form{
-	width: 80%;
+	width: 300px;
 	position: relative;
     display: block;
     margin : 0 auto;
