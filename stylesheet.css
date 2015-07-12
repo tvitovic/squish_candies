@@ -508,6 +508,10 @@ td{
   	border-top: 1px solid #D3D3D3;
 }
 
+.filter-dropdown:hover{
+
+}
+
 .filter-by:hover{
 	color: #E51464;
 	cursor: pointer;
@@ -563,8 +567,14 @@ td{
 	float: left;
 }
 
+.dropdown:hover .filter-by, .dropdown:hover .filter-dropdown {
+    visibility: visible;
+}
+
 .icon-span {
-	width: 100px;
+	width: 20px;
+	display: inline-block;
+	margin-right: 15px;
 }
 
 .filter.dropdown > div,ul{
@@ -578,14 +588,13 @@ td{
 	vertical-align: middle;
 }
 
-.filter-dropdown div ul li p {
+.filter-dropdown span.filter-item {
 	vertical-align: middle;
-	padding-left: 8px;
 	color: black;
 	font-weight: normal;
 }
 
-.filter-dropdown div ul li p:hover {
+.filter-dropdown span.filter-item:hover {
 	vertical-align: middle;
 	padding-left: 8px;
 	color: #E51464;
@@ -599,10 +608,6 @@ td{
 .dd-container{
 	margin: 0 auto;
 	width: 80%;
-}
-
-.dd-list1 ul li img{
-	max-width: 15px;
 }
 
 .dd-list3 ul li img{
