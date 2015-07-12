@@ -626,13 +626,14 @@ td{
 	background-color: yellow;
 	margin-left: auto;
 	margin-right: auto;
-/*	position: absolute;
-*/	width: 500px;
+	position: relative;
+	width: 500px;
 /*	left: 50%;
 	top: 50%;*/
 	height: 450px;
 /*	margin-left: -250px;
 	margin-top: -200px;*/
+	margin-top: 10%;
 	background: #FCFCFC;
 	border: 1px solid #dcdcdc;
 	padding-bottom: 40px;
@@ -751,11 +752,12 @@ td{
 .login-logo{
 	margin: 0 auto;
 	display: block;
+	margin-top: -110px;
 }
 
 .close-form-ellipse{
 	position: absolute;
-	left: 450px;
-	top: 20px;
+	right: 15px;
+	top: 15px;
 	cursor: pointer;
 }
