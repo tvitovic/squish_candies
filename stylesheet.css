@@ -2,20 +2,17 @@
 header {
 	width: 100%;
 	background-color: #000000;
-	margin-top: -10px;
 	vertical-align: middle;
 	height: 87px;
 }
 
 body{
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 .container{
-	width: 1250px;	
-	margin: 0 auto;
+/*	width: 1250px;	
+*/	margin: 0 auto;
 	height: 87px;
 	background:url(logo.png) no-repeat center center;
 }
@@ -50,8 +47,8 @@ body{
 
 .content{
 	height: 1250px;
-	width: 1250px;
-	margin: 0 auto;
+/*	width: 1250px;
+*/	margin: 0 auto;
 	padding-top: 20px;
 	text-align: justify;
 }
@@ -158,8 +155,8 @@ footer{
 }
 
 .container-footer{
-	width: 1400px;	
-	margin: 0 auto;
+/*	width: 1400px;	
+*/	margin: 0 auto;
 	height: 250px;
 	vertical-align: middle;
 }
@@ -500,7 +497,7 @@ td{
   	position: absolute;
   	top: 45px;
   	height: 300px;
-  	width: 1680px;
+/*  	width: 1680px;*/
   	left: -770px;
   	border-bottom: 1px solid #D3D3D3;
   	border-top: 1px solid #D3D3D3;
