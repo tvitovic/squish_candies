@@ -662,7 +662,7 @@ td{
     margin : 0 auto;
   	box-sizing: content-box;
   	height: 10px;
-  	padding: 10px 10px 10px 10px;
+  	padding: 10px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
   	color: #B4AFAF;
@@ -670,6 +670,7 @@ td{
   	text-overflow: clip;
   	background: #FCFCFC;
   	text-shadow: 1px 1px 0 #FFFFFF;
+  	margin-bottom: 20px;
 }
 
 .email:hover {
@@ -683,7 +684,8 @@ td{
     margin : 0 auto;
   	box-sizing: content-box;
   	height: 10px;
-  	padding: 10px 10px 10px 10px;
+  	padding: 10px;
+  	margin-bottom: 30px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
   	color: #B4AFAF;
@@ -704,7 +706,7 @@ td{
     margin : 0 auto;
     left: -10px;
   	height: 10px;
-  	padding-bottom: 30px;
+  	padding-bottom: 20px;
   	font-family: "Calibri";
   	font-size: 18px;
   	color: #B4AFAF;
@@ -720,7 +722,7 @@ td{
     left: -10px;
   	height: 10px;
   	padding-top: 10px;
-  	padding-bottom: 10px;
+  	padding-bottom: 20px;
   	font-family: "Calibri";
   	font-size: 18px;
   	color: #B4AFAF;
