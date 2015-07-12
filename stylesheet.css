@@ -63,7 +63,7 @@ body{
   	display: inline;
   	box-sizing: content-box;
   	height: 10px;
-  	padding: 10px 20px 10px 20px;
+  	padding: 10px 20px 10px 30px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
   	color: #B4AFAF;
@@ -75,6 +75,17 @@ body{
 
 .search-input:hover {
   	box-shadow:inset 0 0 5px #D3D3D3;
+}
+
+.input-group {
+    display: inline;
+    position: relative;
+}
+
+.input-group .input-icon {
+    position: absolute;
+    top: 0;
+    padding: 3px 8px;
 }
 
 .newsletter-input {
