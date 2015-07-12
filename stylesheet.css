@@ -501,10 +501,9 @@ td{
   	visibility: hidden; 
   	color: #D3D3D3;
   	position: absolute;
-/*  	top: 45px;
-*/  height: 300px;
+	height: 300px;
   	width: 100%;
-  	/*left: -770px;*/
+  	left: 0;
 	border-bottom: 1px solid #D3D3D3;
   	border-top: 1px solid #D3D3D3;
 }
@@ -564,7 +563,9 @@ td{
 	float: left;
 }
 
-
+.icon-span {
+	width: 100px;
+}
 
 .filter.dropdown > div,ul{
 	height: 200px;
