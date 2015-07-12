@@ -151,7 +151,7 @@ input[type="radio"] + label:before {
     margin-right: 8px;  
     background-color: #aaa;  
     box-shadow: inset 0px 2px 2px #000000;
-    border-radius: 8px;  
+    border-radius: 8px;
 }
 
 .email-form{
@@ -161,10 +161,15 @@ input[type="radio"] + label:before {
 
 .title{
 	padding-top: 10px;
-	font: normal 26px/normal chevinProBold;
+	font-size: 26px;
+	font-family: chevinProBold;
 	font-weight: bold;
 }
 
+.newsletter-form span{
+	font-family: chevinProMedium;
+	color: #D3D3D3;
+}
 
 div.result > p.holder{
 	font-weight: bold;
@@ -231,7 +236,7 @@ div.social-footer > p {
 
 li > a{
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #D3D3D3;
 	font-family: chevinProMedium;
 }
 
@@ -254,6 +259,7 @@ div.newsletter-footer > p,form {
 
 div.newsletter-footer > p.second-line{
 	font-family: chevinProMedium;
+	color: #D3D3D3;
 }
 
 div.social-footer > p {
@@ -563,14 +569,12 @@ td{
   	visibility: hidden; 
   	color: #D3D3D3;
   	position: absolute;
-	height: 300px;
+	height: 400px;
   	width: 100%;
   	left: 0;
-	border-bottom: 1px solid #D3D3D3;
+/*	border-bottom: 1px solid #D3D3D3;*/
   	border-top: 1px solid #D3D3D3;
-}
-
-.filter-dropdown:hover{
+  	box-shadow: 0px 3px 3px #ededed;
 
 }
 
@@ -587,8 +591,22 @@ td{
 }
 
 .dd-container div ul{
-	padding-left: 5px;
+	padding-left: 35px;
 	padding-right: 2px;
+	height: 75%;
+	margin-top: 60px;
+}
+
+.dd-container div.dd-list1 > ul{
+	border-right: 1px solid #D3D3D3;
+}
+
+.dd-container div.dd-list2 > ul{
+	border-right: 1px solid #D3D3D3;
+}
+
+.dd-container div.dd-list4 > ul{
+	border-right: 1px solid #D3D3D3;
 }
 
 .dd-container p{
@@ -599,34 +617,37 @@ td{
 .dd-list1{
 	width: 15%;
 	float: left;
-	border-right: 1px solid #D3D3D3;
+	height: 80%;
 }
 
 .dd-list2{
 	width: 15%;
 	float: left;
-	border-right: 1px solid #D3D3D3;
+	height: 80%;
 }
 
 .dd-list3{
 	width: 18%;
 	float: left;
+	height: 80%;
 }
 
 .dd-list4{
 	width: 18%;
 	float: left;
-	border-right: 1px solid #D3D3D3;
+	height: 80%;
 }
 
 .dd-list5{
 	width: 17%;
 	float: left;
+	height: 80%;
 }
 
 .dd-list6{
 	width: 16%;
 	float: left;
+	height: 80%;
 }
 
 .dropdown:hover .filter-by, .dropdown:hover .filter-dropdown {
@@ -639,12 +660,8 @@ td{
 	margin-right: 15px;
 }
 
-.filter.dropdown > div,ul{
-	height: 200px;
-}
-
 .filter.dropdown > ul,li{
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	list-style-type: none;
 	text-align: left;
 	vertical-align: middle;
