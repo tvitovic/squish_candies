@@ -1,12 +1,18 @@
 
 header {
 	width: 100%;
-	background-color: rgb(0, 0, 0);
+	background-color: #000000;
 	margin-top: -10px;
 	vertical-align: middle;
 	height: 87px;
-
 }
+
+body{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
 .container{
 	width: 1250px;	
 	margin: 0 auto;
@@ -19,11 +25,11 @@ header {
 	font-size: 14px;	
   	font-family: "Calibri";
   	font-weight: bold;
-  	color: rgb(255, 255, 255);
+  	color: #FFFFFF;
   	padding-top: 25px;
 }
 .lang:hover{
-	color: rgb(180,175,175); 
+	color: #B4AFAF; 
 	cursor: pointer;
 }
 
@@ -32,13 +38,13 @@ header {
 	font-size: 14px;
   	font-family: "Calibri";
   	font-weight: bold;
-  	color: rgb(229, 20, 100);
+  	color: #E51464;
   	float: right;
   	padding-top: 25px;
 }
 
 .login:hover{
-	color: rgb(180,175,175);
+	color: #B4AFAF;
 	cursor: pointer; 	
  }
 
@@ -59,11 +65,11 @@ header {
   	padding: 10px 20px 10px 20px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
-  	background: rgb(252,252,252);
-  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  	background: #FCFCFC;
+  	text-shadow: 1px 1px 0 #FFFFFF;
 }
 
 .search_input:hover {
@@ -80,12 +86,12 @@ header {
   	padding: 10px 20px 10px 20px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
-  	background: rgb(252,252,252);
-  	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
-  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  	background: #FCFCFC;
+  	box-shadow: 2px 2px 2px 0 #000000 inset;
+  	text-shadow: 1px 1px 0 #FFFFFF;
   	margin-right: 0px;
   	vertical-align: middle;
 
@@ -100,7 +106,7 @@ header {
 	width: 40px;
 	height: 37px;
 	border: 1px solid #D3D3D3;
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	background-color: black;
 	vertical-align: middle;
 }
@@ -123,7 +129,7 @@ input[type="radio"] + label:before {
     vertical-align:middle;
     margin-right: 8px;  
     background-color: #aaa;  
-    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px 2px 2px #000000;
     border-radius: 8px;  
 }
 
@@ -145,7 +151,7 @@ div.result > p.holder{
 
 footer{
 	width: 100%;
-	background-color: rgb(0, 0, 0);
+	background-color: #000000;
 	vertical-align: middle;
 	padding-top: 30px;
 	padding-bottom: 60px;
@@ -185,7 +191,7 @@ footer{
 	width: 20%;
 	height: 100%;
 	font-weight: bold;
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	font-family: "Calibri";
 }
 
@@ -199,17 +205,17 @@ div.social-footer > p {
 	height: 100%;
 	font-weight: normal;
 	font-family: "Calibri";
-	color: rgb(255,255,255);
+	color: #ffffff;
 }
 
 li > a{
 	text-decoration: none;
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	font-family: "Calibri";
 }
 
 li > a:hover{
-	color: rgb(180,175,175);
+	color: #B4AFAF;
 }
 
 ul.list-info > li {
@@ -217,7 +223,7 @@ ul.list-info > li {
 }
 
 p.first-line{
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	font-weight: bold;
 }
 
@@ -320,7 +326,7 @@ tr.table-heading{
 
 .btn {
   	font-family: "Calibri";
-  	color: rgb(229, 20, 100);
+  	color: #E51464;
   	font-size: 14px;
   	background: #ffffff;
   	padding: 10px 20px 10px 20px;
@@ -329,7 +335,7 @@ tr.table-heading{
 }
 
 .btn:hover {
- 	background: rgb(229, 20, 100);
+ 	background: #E51464;
   	text-decoration: none;
   	color: #ffffff;
   	cursor:	pointer;
@@ -501,7 +507,7 @@ td{
 }
 
 .filter-by:hover{
-	color: rgb(229, 20, 100);
+	color: #E51464;
 	cursor: pointer;
 	border-top: 1px solid #D3D3D3;
 	border-left: 1px solid #D3D3D3;
@@ -578,7 +584,7 @@ td{
 .filter-dropdown div ul li p:hover {
 	vertical-align: middle;
 	padding-left: 8px;
-	color: rgb(220,20,100);
+	color: #E51464;
 	font-weight: normal;
 }
 
@@ -616,15 +622,18 @@ td{
 }
 
 .login-form{
+	display: block;
 	background-color: yellow;
-	position: absolute;
-	width: 500px;
-	left: 50%;
-	top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+/*	position: absolute;
+*/	width: 500px;
+/*	left: 50%;
+	top: 50%;*/
 	height: 450px;
-	margin-left: -250px;
-	margin-top: -200px;
-	background: rgb(252,252,252);
+/*	margin-left: -250px;
+	margin-top: -200px;*/
+	background: #FCFCFC;
 	border: 1px solid #dcdcdc;
 	padding-bottom: 40px;
 	border-radius: 15px;
@@ -639,7 +648,6 @@ td{
 .login-title{
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 25%;
 	font-weight: bold;
   	font-size: 24px;
   	font-family: "Calibri";
@@ -656,11 +664,11 @@ td{
   	padding: 10px 10px 10px 10px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
-  	background: rgb(252,252,252);
-  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  	background: #FCFCFC;
+  	text-shadow: 1px 1px 0 #FFFFFF;
 }
 
 .email:hover {
@@ -677,11 +685,11 @@ td{
   	padding: 10px 10px 10px 10px;
   	border: 1px solid #dcdcdc;
   	font: normal 14px/normal "Calibri";
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
-  	background: rgb(252,252,252);
-  	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  	background: #FCFCFC;
+  	text-shadow: 1px 1px 0 #FFFFFF;
 }
 
 .password:hover {
@@ -698,7 +706,7 @@ td{
   	padding-bottom: 30px;
   	font-family: "Calibri";
   	font-size: 18px;
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	text-align: left;
   	font-weight: bold;
 }
@@ -714,7 +722,7 @@ td{
   	padding-bottom: 10px;
   	font-family: "Calibri";
   	font-size: 18px;
-  	color: rgb(180,175,175);
+  	color: #B4AFAF;
   	font-weight: bold;
 }
 
@@ -732,7 +740,7 @@ td{
   	-o-text-overflow: clip;
   	text-overflow: clip;
   	background: #08BDC8;
-  	color: rgb(255,255,255);
+  	color: #FFFFFF;
   	text-align: center;
 }
 
@@ -741,9 +749,8 @@ td{
 }
 
 .login-logo{
-	position: absolute;
-	left: 127px;
-	top: -100px;
+	margin: 0 auto;
+	display: block;
 }
 
 .close-form-ellipse{
