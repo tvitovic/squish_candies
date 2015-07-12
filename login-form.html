@@ -8,27 +8,27 @@
 
 
 <header>
-	<div class="container">
+	<div class="header-container">
 		<p class="lang">FR</p>
 		<p class="login">LOGOUT</p>>
 	</div>
 </header>
 
-<div class="content">
-	
+<div class="container">
+	<div class="product-list-content">  
 		<div class="login-form">
       <img class="login-logo" src="images/login-logo.png">
       <img class="close-form-ellipse" src="images/x-ellipse.png">
       <p class="login-title">LOG IN</p>
       <form method="post" action="homepage.html">
-        <p class="email-label">EMAIL</p>
+        <label class="email-label">EMAIL</label>
         <input class="email" type="text" name="login" value="">
-        <p class="pass-label">PASSWORD</p>
-        <p><input class="password" type="password" name="password" value=""></p>
-        <p><input class="submit-form"type="submit" name="commit" value="LOG IN"></p>
+        <label class="pass-label">PASSWORD</label>
+        <input class="password" type="password" name="password" value="">
+        <button class="submit-form" type="submit" name="commit">LOG IN</button>
       </form>
     </div>
-
+  </div>
 </div>
 
 
@@ -75,7 +75,7 @@
 				<input type="radio" name="lang" value="EN">EN</input>
 				<input type="radio" name="lang" value="FR">FR</input><br/>
 				<div class="email-form">
-					<input type="text" class="newsletter_input">
+					<input type="text" class="newsletter-input">
 					<button class="newsletter-button"><img src="images/arrow.png"></button>
 				</div>
 			</form>
