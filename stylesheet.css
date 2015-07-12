@@ -1,3 +1,13 @@
+@font-face {
+   font-family: chevinProBold;
+   src: url('fonts/chevinpro-bold-webfont.eot'), url('fonts/chevinpro-bold-webfont.ttf') format('truetype'), url('fonts/chevinpro-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+   font-family: chevinProMedium;
+   src: url('fonts/chevinpro-medium-webfont.eot');
+   src: url('fonts/chevinpro-medium-webfont.eot'), url('fonts/chevinpro-medium-webfont.ttf') format('truetype'), url('fonts/chevinpro-medium-webfont.svg') format('svg');
+}
 
 header {
 	width: 100%;
@@ -20,7 +30,7 @@ body{
 .lang{
 	float: left;
 	font-size: 14px;	
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	font-weight: bold;
   	color: #FFFFFF;
   	padding-top: 25px;
@@ -33,7 +43,7 @@ body{
 .login{
   	display: inline;
 	font-size: 14px;
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	font-weight: bold;
   	color: #E51464;
   	float: right;
@@ -65,7 +75,7 @@ body{
   	height: 10px;
   	padding: 10px 20px 10px 30px;
   	border: 1px solid #dcdcdc;
-  	font: normal 14px/normal "Calibri";
+  	font: normal 14px/normal chevinProMedium;
   	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
@@ -97,7 +107,7 @@ body{
   	padding-right: 40px;
   	padding: 10px 20px 10px 20px;
   	border: 1px solid #dcdcdc;
-  	font: normal 14px/normal "Calibri";
+  	font: normal 14px/normal chevinProMedium;
   	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
@@ -132,7 +142,6 @@ body{
 	position: relative;
 }
 
-/* Ne radi mi ovo stilizovanje radio button-a, tj. ne vidim efekat*/
 input[type="radio"] + label:before {
     content: "";  
     display: inline-block;  
@@ -152,7 +161,7 @@ input[type="radio"] + label:before {
 
 .title{
 	padding-top: 10px;
-	font: normal 26px/normal "Calibri";
+	font: normal 26px/normal chevinProBold;
 	font-weight: bold;
 }
 
@@ -204,7 +213,7 @@ footer{
 	height: 100%;
 	font-weight: bold;
 	color: #FFFFFF;
-	font-family: "Calibri";
+	font-family: chevinProBold;
 }
 
 div.social-footer > p {
@@ -216,14 +225,14 @@ div.social-footer > p {
 	width: 30%;
 	height: 100%;
 	font-weight: normal;
-	font-family: "Calibri";
+	font-family: chevinProBold;
 	color: #ffffff;
 }
 
 li > a{
 	text-decoration: none;
 	color: #FFFFFF;
-	font-family: "Calibri";
+	font-family: chevinProMedium;
 }
 
 li > a:hover{
@@ -241,6 +250,10 @@ p.first-line{
 
 div.newsletter-footer > p,form {
 	padding-left: 10%;
+}
+
+div.newsletter-footer > p.second-line{
+	font-family: chevinProMedium;
 }
 
 div.social-footer > p {
@@ -271,8 +284,30 @@ div.social-images > img{
 	display: inline;
 }
 
+.product-search{
+	padding-top: 25px;
+	visibility: hidden;				/* Hidden for now, available for futher use*/	
+}
+
+.product-search span.found-results, span.results-for, span.search-criteria {
+	font-family: chevinProBold;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.product-search span.search-cancel{
+	font-family: chevinProMedium;
+	display: inline;
+	float: right;
+}
+
+.product-search span.search-cancel:hover{
+	cursor: pointer;
+	color: #E51464;
+}
+
 .table-container{
-	margin-top: 25px;
+	margin-top: 10px;
 	width: 100%;
 }
 
@@ -296,6 +331,10 @@ tr.table-heading{
 	border-bottom: 1px solid #000000;
 	height: 35px;
 	text-align: left;
+}
+
+tr.table-heading th {
+	font-family: chevinProBold;
 }
 
 .column1{
@@ -335,10 +374,11 @@ tr.table-heading{
 .table-details{
 	float:left;
 	color: #626263;
+	font-family: chevinProMedium;
 }
 
 .btn {
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	color: #E51464;
   	font-size: 14px;
   	background: #ffffff;
@@ -355,7 +395,7 @@ tr.table-heading{
 }
 
 .back-button{
-	font: normal 26px/normal "Calibri";
+	font: normal 26px/normal chevinProBold;
 	font-weight: bold;
 }
 
@@ -387,6 +427,7 @@ tr.table-heading{
 	border-bottom-color: #D3D3D3;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: chevinProMedium;
 }
 
 .list-info-headline{
@@ -394,7 +435,8 @@ tr.table-heading{
 	height: 30px;
 	width: 100%;
 	border-bottom: 1px solid;
-	font: bold 16px/bold "Calibri";
+	font-size: 16px;
+	font-family: chevinProBold;
 	border-bottom-color: #D3D3D3;
 }
 
@@ -417,7 +459,7 @@ tr.table-heading{
 }
 
 .info-title{
-	font-family: "Calibri";
+	font-family: chevinProBold;
 	border-bottom: 1px solid;
 	border-bottom-color: #D3D3D3;
 	height: 40px;
@@ -427,12 +469,13 @@ tr.table-heading{
 
 .description-title{
 	padding-right: 10px;
-	font: normal 16px/normal "Calibri";
+	font: normal 16px/normal chevinProMedium;
 	padding-bottom: 20px;
 }
 
 td{
 	color: #626263;
+	font-family: chevinProMedium;
 }
 
 .table-right-info{
@@ -441,24 +484,33 @@ td{
 	border-collapse:collapse;
 }
 
-.info-table-head{
+.table-right-info th {
+	font-family: chevinProBold;
+	height: 40px;
+	text-align: left;
+	padding-left: 5px;
 	background-color: #F6F6F8;
-	font: bold 14px/bold "Calibri";
 }
 
-.info.table-content{
-	font: normal 14px/normal "Calibri";
-	border-bottom: 1px #F6F6F8;
-}
-
-.table-row-right-info{
+.table-right-info td {
+	font-family: chevinProMedium;
 	height: 40px;
 	text-align: left;
 	padding-left: 5px;
 }
 
+.info-table-head{
+	background-color: #F6F6F8;
+	font: bold 14px/bold chevinProBold;
+}
+
+.info.table-content{
+	font: normal 14px/normal chevinProBold;
+	border-bottom: 1px #F6F6F8;
+}
+
 .nutrition{
-	font-family: "Calibri";
+	font-family: chevinProBold;
 	border-bottom: 1px solid;
 	border-bottom-color: #D3D3D3;
 	color: #626263;
@@ -475,7 +527,7 @@ td{
 }
 
 .gift-box{
-	font-family: "Calibri";
+	font-family: chevinProBold;
 	border-bottom: 1px solid;
 	border-bottom-color: #D3D3D3;
 	color: #626263;
@@ -496,7 +548,7 @@ td{
 	background:none;
 	border:0;
 	font-size: 14px;
-	font-family: "Calibri";
+	font-family: chevinProBold;
 	font-weight: bold;
 	position: relative;
 	padding-right: 10px;
@@ -602,6 +654,7 @@ td{
 	vertical-align: middle;
 	color: black;
 	font-weight: normal;
+	font-family: chevinProMedium;
 }
 
 .filter-dropdown span.filter-item:hover {
@@ -647,11 +700,7 @@ td{
 	margin-right: auto;
 	position: relative;
 	width: 500px;
-/*	left: 50%;
-	top: 50%;*/
 	height: 450px;
-/*	margin-left: -250px;
-	margin-top: -200px;*/
 	margin-top: 10%;
 	background: #FCFCFC;
 	border: 1px solid #dcdcdc;
@@ -670,7 +719,7 @@ td{
 	text-align: center;
 	font-weight: bold;
   	font-size: 24px;
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	padding-bottom: 20px;
 }
 
@@ -683,7 +732,7 @@ td{
   	height: 10px;
   	padding: 10px;
   	border: 1px solid #dcdcdc;
-  	font: normal 14px/normal "Calibri";
+  	font: normal 14px/normal chevinProBold;
   	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
@@ -707,7 +756,7 @@ td{
   	padding: 10px;
   	margin-bottom: 30px;
   	border: 1px solid #dcdcdc;
-  	font: normal 14px/normal "Calibri";
+  	font: normal 14px/normal chevinProBold;
   	color: #B4AFAF;
   	-o-text-overflow: clip;
   	text-overflow: clip;
@@ -741,7 +790,7 @@ td{
   	height: 10px;
   	padding-top: 10px;
   	padding-bottom: 20px;
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	font-size: 18px;
   	color: #B4AFAF;
   	font-weight: bold;
@@ -757,7 +806,7 @@ td{
   	border: 1px solid #dcdcdc;
   	font-size: 18px;
   	font-weight: bold;
-  	font-family: "Calibri";
+  	font-family: chevinProBold;
   	-o-text-overflow: clip;
   	text-overflow: clip;
   	background: #08BDC8;
