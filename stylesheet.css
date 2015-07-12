@@ -596,9 +596,9 @@ td{
 
 .filter-dropdown span.filter-item:hover {
 	vertical-align: middle;
-	padding-left: 8px;
 	color: #E51464;
 	font-weight: normal;
+	cursor: pointer;
 }
 
 .filter-dropdown div ul li img {
