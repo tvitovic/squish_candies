@@ -766,8 +766,9 @@ td.image-td, td.button-td{
 .login-form{
 	display: block;
 	background-color: yellow;
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
 	position: relative;
 	width: 500px;
 	height: 450px;
