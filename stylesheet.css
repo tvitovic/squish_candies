@@ -87,6 +87,10 @@ body{
   	border: 1px solid #999999;
 }
 
+.search-input:focus{
+	outline: 0;
+}
+
 .input-group {
     display: inline;
     position: relative;
