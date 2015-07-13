@@ -5,7 +5,7 @@
 <script type="text/javascript" src="dropdown.js"></script>
 </head>
 
-<body>
+<body onload="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
 
 
 <header>
@@ -14,6 +14,28 @@
 		<p class="login">LOGOUT</p>>
 	</div>
 </header>
+
+<div id="light" class="white_content">
+
+  <div class="container">
+    <div class="product-list-content">  
+      <div class="login-form">
+        <img class="login-logo" src="images/login-logo.png">
+        <img class="close-form-ellipse" src="images/x-ellipse.png" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+        <p class="login-title">LOG IN</p>
+        <form method="post" action="homepage.html">
+          <label class="email-label">EMAIL</label>
+          <input class="email" type="text" name="login" value="">
+          <label class="pass-label">PASSWORD</label>
+          <input class="password" type="password" name="password" value="">
+          <button class="submit-form" type="submit" name="commit">LOG IN</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div id="fade" class="black_overlay"></div>
 
 <div class="container">
 
