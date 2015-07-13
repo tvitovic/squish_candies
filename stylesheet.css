@@ -627,10 +627,29 @@ div.right-info img:hover {
 .table-container tbody tr {
 	height: 82px;
 }
+/*
+.table-container tbody tr td {
+	vertical-align: text-top;
+}
+*/
 
-td.image-td{
-/*	padding-left: 30px;
-*/}
+td.name-td, td.sku-td, td.ingredients-td{
+	vertical-align: text-top;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+td.image-td, td.button-td{
+	
+	text-align: center; margin: 1em 0;
+}
+
+
+.table-container tbody tr td img {
+
+	vertical-align: middle;
+
+}
 
 .dd-container div.dd-list1 > ul{
 	border-right: 1px solid #D3D3D3;
