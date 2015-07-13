@@ -652,19 +652,34 @@ td.image-td, td.button-td{
 
 .dd-container div.dd-list1 > ul{
 	border-right: 1px solid #D3D3D3;
+	margin-top: 5px;
 }
 
 .dd-container div.dd-list2 > ul{
 	border-right: 1px solid #D3D3D3;
+	margin-top: 5px;
 }
 
 .dd-container div.dd-list4 > ul{
 	border-right: 1px solid #D3D3D3;
 }
 
+.dd-container div.dd-list3 > ul{
+	margin-top: 5px;
+}
+
+.dd-container div.dd-list5 > ul{
+	margin-top: 5px;
+}
+
 .dd-container p{
 	font-size: 14px;
 	display: inline;
+}
+
+.dd-column-head{
+	display: block;
+	margin-top: 40px;
 }
 
 .dd-list1{
