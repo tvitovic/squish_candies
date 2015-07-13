@@ -57,16 +57,16 @@ body{
 
 .container{
 	height: 1250px;
-/*	width: 1250px;
-*/	margin: 0 auto;
+	width: 1440px;
+	margin: 0 auto;
 	padding-top: 20px;
 	text-align: justify;
 }
 
 .product-list-content{
 	margin: 0 auto;
-	width: 75%;
-}
+/*	width: 75%;
+*/}
 
 .search-input {
   	width: 250px;
@@ -223,6 +223,10 @@ footer{
 
 div.social-footer > p {
 	padding-left: 10%;
+}
+
+div.social-footer img:hover {
+	cursor: pointer;
 }
 
 .newsletter-footer{
@@ -452,14 +456,14 @@ tr.table-heading th {
 }
 
 .gallery{
-	width: 55%;
+	width: 690px;
 	height: 100%;
 	float: left;
 /*	background-color: #D3D3D3;*/
 }
 
 .right-info{
-	width: 45%;
+	width: 690px;
 	height: 100%;
 	float:left;
 }
@@ -524,8 +528,24 @@ td{
 	margin-top: 40px;
 }
 
+div.right-info img:hover {
+	cursor: pointer;
+}
+
 .nutrition-images{
 	float:left;
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#000000;
+	padding:10px;
+	top: 10px;
+	color:#FFFFFF;
+	font-size:12px;
+	font-family: chevinProMedium;
 }
 
 .nutrition-images > img{
