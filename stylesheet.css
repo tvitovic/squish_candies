@@ -849,13 +849,14 @@ td.image-td{
 }
 
 .submit-form{
-	width: 300px;
+	width: 308px;
 	position: relative;
     display: block;
     margin : 0 auto;
   	box-sizing: content-box;
-  	height: 40px;
-  	border: 1px solid #dcdcdc;
+  	height: 50px;
+  	border: none;
+  	border-radius: 4px;
   	font-size: 18px;
   	font-weight: bold;
   	font-family: chevinProBold;
