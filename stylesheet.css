@@ -620,6 +620,43 @@ div.right-info img:hover {
 	visibility: visible;
 }
 
+.filter-chosen-list{
+	margin-left: 35px;
+	margin-top: 15px;
+}
+
+.filter-chosen-list button.delete-all{
+	border-radius: 3px;
+	border: none;
+	background-color: #E51464;
+	font-family: chevinProBold;
+	color: #FFFFFF;
+	height: 25px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	display: none;		    /* Ukljuciti kada se dodaju filteri*/
+}
+
+.filter-chosen-list button.filters{
+	border-radius: 3px;
+	border: none;
+	background-color: #000000;
+	font-family: chevinProBold;
+	color: #FFFFFF;
+	height: 25px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	display: none;			/* Ukljuciti kada se dodaju filteri*/
+}
+
+.filter-chosen-list button:hover{
+	cursor: pointer;
+}
+
+.filter-chosen-list button span.erase-filter{
+	color: #000000;
+}
+
 .dd-container div ul{
 	padding-left: 35px;
 	padding-right: 2px;
@@ -683,7 +720,7 @@ td.image-td, td.button-td{
 
 .dd-column-head{
 	display: block;
-	margin-top: 40px;
+	margin-top: 20px;
 	font-family: chevinProBold;
 	padding-left: 35px;
 	padding-bottom: 10px;
